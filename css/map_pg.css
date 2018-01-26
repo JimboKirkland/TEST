@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(6, 34, 69);
+    font: 400 1.25em/1.38 Muli;
+    color: rgb(255, 255, 255);
+}
+
+.element {
+    float: left;
+}
+
+.provider_map {
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 284px;
+    background: url('../images/snazzy-image.png') rgb(204, 204, 204);
+    background-repeat: no-repeat;
+    background-size: 650px 650px;
+    background-position: center center;
+}
+
+.providerhead_boxtext {
+    position: relative;
+    z-index: 11;
+    width: 201px;
+    min-height: 27px;
+    margin: 10px 0 0 59px;
+    font-size: 1em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.providerimagebox {
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 93px;
+    margin-top: 8px;
+    background: url('../images/Tree-Close-Up.jpg') rgb(24, 24, 24);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.providerinfobox {
+    position: relative;
+    width: 100%;
+    height: 136px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.providertaskbar {
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(6, 34, 69);
+    overflow: hidden;
+    cursor: inherit;
+}
+
+._button {
+    display: block;
+    border-radius: 2px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+._container {
+    clear: both;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(6, 34, 69);
+}
+
+._element {
+    margin-top: 7px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.element ._button {
+    width: 90%;
+    height: 40px;
+    margin: 10px auto 0;
+    background-color: rgb(0, 74, 115);
+    color: rgb(0, 163, 255);
+}
+
+.element ._button:active,
+.element ._button:hover {
+    background-color: rgb(184, 233, 134);
+    color: rgb(6, 34, 69);
+}
+
+.providerinfobox ._button {
+    position: absolute;
+    top: 6px;
+    left: 5%;
+    z-index: 9;
+    width: 22px;
+    height: 31px;
+    background-image: url('../images/keyboard_arrow_left_black_48px.svg');
+    background-repeat: no-repeat;
+    background-size: 8px 13px;
+    background-position: center center;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+}
+
+.element-1 {
+    width: 150px;
+    height: 45px;
+    margin-left: 8%;
+    text-align: center;
+    cursor: inherit;
+    font-size: .75em;
+    color: rgb(0, 163, 255);
+}
+
+.element-3 {
+    width: 50px;
+    height: 45px;
+    margin-left: 3%;
+    cursor: inherit;
+    background-image: url('../images/weather3.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40px 40px;
+}
+
+.element-2 {
+    width: 50px;
+    height: 45px;
+    margin-left: 3%;
+    font-size: .95em;
+    text-align: center;
+    overflow: hidden;
+    color: rgb(0, 163, 255);
+    cursor: inherit;
+}
+
+#startNav_btn {
+    margin-top: 25px;
+}
