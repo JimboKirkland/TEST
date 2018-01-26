@@ -43,7 +43,7 @@ $("#signUp_Done").on("click", function(event) {
     database.ref().push(newProvider);
 
     // Alert
-    alert("Provider successfully added");
+    $("#overlay").fadeIn(600);
 
     // Clears all of the text-boxes
     $("#name-input").val("");
